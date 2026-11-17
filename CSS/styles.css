@@ -1,0 +1,65 @@
+/* Styling for navigation bar */
+.NavBar {
+    background-color: Black;
+    height: 1in;
+    display: flex;
+    padding: 0 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+.NavBar a {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.NavBar h1 {
+    color: white;
+    font-size: 24px;
+}
+.NavBarLinks {
+    display: flex;
+    gap: 20px;
+}
+
+/* Styling for site banner */
+.SiteBanner {
+    background-image: url('../Images/240Banner.jpeg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 4in;
+    background-position: top;
+}
+.BannerContent h2 {
+    color: black;
+    font-size: 52px;
+    text-align: center;
+    margin:0;
+}
+.BannerContent p {
+    margin-top: -4.5px;
+    color: black;
+    font-size: 32px;
+    text-align: center;
+}
+.BannerButton button {
+    display: block;
+    margin: 0 auto;
+    margin-top: 180px;
+    padding: 10px 20px;
+    background-color: red;
+    font-size: 24px;
+    border-radius: 3px;
+    color:white;
+}
+/* product section */
+.ProductSection {
+    text-align: center;
+}
+.ProductSection button {
+    align-items: center;
+    margin-right: 34px;
+    width: 125px;
+    height: 125px;
+}
