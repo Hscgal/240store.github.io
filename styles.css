@@ -25,7 +25,7 @@
 
 /* Styling for site banner */
 .SiteBanner {
-    background-image: url('../Images/240Banner.jpeg');
+    background-image: url('240Banner.jpeg');
     background-size: 100% 100%;
     background-repeat: no-repeat;
     height: 4in;
