@@ -63,3 +63,31 @@
     width: 125px;
     height: 125px;
 }
+
+/* footer section */
+.Footer {
+    background-color: black;
+    margin-top: 130px;
+    height: 2.3in;
+    width:100%;
+    color: white;
+}
+.FooterContent {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+.FooterContact {
+    text-align: left;
+}
+.FooterLinks {
+    text-align: right center;
+    margin-right:80px;
+    color: white;
+}
+.FooterLinks a {
+    color: white;
+}
